@@ -5,6 +5,10 @@
     box-sizing: border-box;
 
 }
+ 
+a{
+    text-decoration: none;
+}
 
 img {
 
@@ -122,22 +126,21 @@ img {
 /* footer  */
 .foot_container {
 
-        background-color: #3a546d;
+    background-color: #3a546d;
 
 }
 
-.icone {
-
-    border: 1px solid;
-    border-radius: 100%;
-    min-height: 50px;
-    min-width: 50px;
-    margin-right: 10px;
-}
 
 .icone_container {
     display: flex;
     justify-content: center;
+    color: white;
+
+}
+
+.icone_container i {
+
+    margin: 0 15px;
 
 }
 
