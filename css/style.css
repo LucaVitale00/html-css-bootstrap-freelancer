@@ -1,0 +1,134 @@
+/************* HEADER *************/
+header .row:first-child{
+  background-color: #2C3E50;
+  min-height: 80px;
+}
+
+header .row:last-child{
+  background-color: #1ABC9C;
+  min-height: 400px;
+  margin-top: 80px;
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+header ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header a{
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/************ JUMBO ************/
+.jumbo .col-4:first-of-type{
+  height: 40%;
+}
+
+.jumbo img{
+  object-fit: contain;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+header p{
+  font-size: 1.2rem;
+  font-weight: 600;
+} 
+
+.fa-star{
+  font-size: 1.7rem;
+  margin: 0 20px;
+}
+
+.line{
+  display: inline-block;
+  width: 130px;
+  height: 3px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 0.4rem;
+}
+ 
+/*********** PORTFOLIO ***********/
+.portfolio{
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.white{
+  background-color: #fff;
+}
+
+.blue{
+  background-color: #2C3E50;
+}
+
+.bluestar{
+  color: #2C3E50;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.whitetext{
+  color: #fff;
+}
+
+/************* ABOUT *************/
+.green{
+  background-color: #1ABC9C;
+}
+
+main p{
+  font-size: 1.15rem;
+}
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+/************* CONTACT *************/
+.btn.aqua{
+  border: none;
+  background-color: #1ABC9C;
+}
+
+/************* FOOTER *************/
+.top{
+  background-color: #3A546D;
+}
+
+.bottom{
+  font-size: 0.7rem;
+  background-color: #2C3E50;
+}
+
+footer h3{
+  font-size: 1.4rem;
+}
+
+footer p{
+  font-size: 1.11rem;
+}
